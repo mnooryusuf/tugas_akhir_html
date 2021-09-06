@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar HTML - Niomic</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Daftar Pahlawan Indonesia - WANITA</h1>
+    </header>
+
+    <main>
+        <div>
+            <nav>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="index.html">
+                                <h3>Pahlawan Pria |</h3>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="index2.html">
+                                <h3>Pahlawan Wanita</h3>
+                            </a>
+                        </td>                  
+                    </tr>
+                </table>
+            </nav>
+
+            <style>
+                #pahlawan {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                #pahlawan td,#pahlawan th{
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                }
+
+                #pahlawan tr:nth-child(even){background-color: #f2f2f2;}
+
+                #pahlawan tr:hover {background-color: #ddd;}
+
+                #pahlawan th{
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    text-align: center;
+                    background-color: darkcyan;
+                    color: white;
+                }
+            </style>
+
+            <table id="pahlawan" >
+                <tr>
+                    <th>NAMA PAHLAWAN</th>
+                    <th>DESKRIPSI</th>
+                    <th>MEDIA</th>
+                </tr>
+                <tr>
+                    <td align="center"><i><b>Cut Nyak Dhien</b></i></td>
+                    <td align="right">Cut Nyak Dhien (ejaan lama: Tjoet Nja' Dhien, Lampadang, Kerajaan Aceh, 1848 – Sumedang, Jawa Barat, 6 November 1908; dimakamkan di Gunung Puyuh, Sumedang) adalah seorang <mark>ahlawan Nasional Indonesia</mark>P dari Aceh yang berjuang melawan Belanda pada masa Perang Aceh. Setelah wilayah VI Mukim diserang, ia mengungsi, sementara suaminya <b>Ibrahim Lamnga</b> bertempur melawan Belanda. 
+                    <br><br>
+                    Sumber : <a href="https://id.wikipedia.org/wiki/Cut_Nyak_Dhien">wikipedia</a>    
+                    </td>
+                    <td align="right"><img src="cut-nyak-dien.jpg" alt="Cut_Nyak_Dhien" width="50%" height="100%"></td>
+                </tr>
+                <tr>
+                    <td align="center"><i><b>R.A. Kartini</b></i></td>
+                    <td>Raden Adjeng Kartini (lahir di Jepara, Hindia Belanda, 21 April 1879 – meninggal di Rembang, Hindia Belanda, 17 September 1904 pada umur 25 tahun) atau sebenarnya lebih tepat disebut Raden Ayu Kartini adalah seorang tokoh Jawa dan <mark>Pahlawan Nasional Indonesia</mark>. Kartini dikenal sebagai pelopor kebangkitan perempuan pribumi.
+                    <br><br>
+                    Sumber : <a href="https://id.wikipedia.org/wiki/Kartini">Wikepedia</a>
+                    </td>
+                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/MrqCAnTnJSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>                   
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
